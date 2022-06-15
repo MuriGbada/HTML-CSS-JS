@@ -5,17 +5,23 @@
 }
 
 body{
-    margin-left: 30;
+    margin: 25px;
     background: #0e0e0e;
-    width: 90%;
-
+    width: 100%;
+}
+.nav{
+    color: #fff;
+    margin-left: 250px;
+    font-size: xx-large;
     
 }
+
 main{
     width: 100%;
-    margin-top: 20%;
-    margin-bottom: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     background-color: hsla(0, 0%, 100%, 0.984);
+
       
 }
 
@@ -25,34 +31,68 @@ main{
     justify-content: center;
     align-items: center;
     padding: 100px;
-    border-radius: 25px;
-}
+    width: 100vh;
+    /*border-radius: 25px;*/
+    font-family: "Lexend Deca";
+    font-size: 15px;
+    margin-right: auto;
+    margin-left: auto;
 
-.button{
-	background-color:hsla(0, 0%, 100%, 0.984);
-	color:hsla(0, 50%, 70%, 1.0);
-	padding:10px 15px;
-	border:none;
-    border-radius: 30px;
 }
 
 .box1{
     /*background-color: rgb(219, 145, 7);*/
     background-color: hsl(31, 77%, 52%);
     color: #fff;
-    padding: 35px;
+    width: 450px;
+    height: 300px;
+    padding: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .box2{
     /*background-color: rgb(55, 136, 128);*/
     background-color: hsl(184, 100%, 22%);
     color: #fff;
-    padding: 35px;
+    width: 450px;
+    height: 300px;
+    padding: 15px;
 }
 
 .box3{
     /*background-color: rgb(15, 47, 44);*/
     background-color: hsl(179, 100%, 13%);
     color: #fff;
-    padding: 35px;
+    width: 450px;
+    height: 300px;
+    padding: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#button1{
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+    padding: 8px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+#button2{
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+    padding: 8px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+#button3{
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+    padding: 8px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 35px;
 }
