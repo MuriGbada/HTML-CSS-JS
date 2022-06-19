@@ -1,0 +1,51 @@
+
+body{
+    background-color: #f4f4f4;
+    color: #555;
+    width: 90%;
+    position: center;
+/*
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+*/
+    line-height: 1.6em;     
+}
+
+#main-block{
+    float:left;
+	width:70%;
+    
+    padding: 43px;
+    margin: 1px 0;
+	box-sizing: border-box;
+}
+
+#side-block{
+    float:right;
+	width:30%;
+    overflow: auto;	
+}
+
+#side-block figure{
+    padding: 9px;
+    margin: auto;
+}
+
+#side-block figcaption{
+    font-style: italic;
+    padding: 2px;
+}
+
+.button{
+    background-color: black;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover{
+    background-color: red;
+    color: white;
+}
+
